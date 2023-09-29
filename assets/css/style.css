@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Mulish:ital,wght@0,200;0,300;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+  }
+::selection {
+	color: white;
+	background: black;
+}
+::-webkit-scrollbar {
+	height: 3px !important;
+	width: 8px;
+}
+/* font-family: 'Mulish', sans-serif; */
+::-webkit-scrollbar-track {
+	background: #EFEEE9;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #080404;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Comic Neue', cursive;
+    
+}
+
+section {
+    overflow: hidden;
+}
+
+
+
+.font-outfit {
+    font-family: 'Comic Neue', cursive;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Comic Neue';
+}
+
+h2 {
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 0em;
+    color: #080404;
+}
+a{
+    color: #080404;
+}

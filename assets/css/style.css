@@ -415,13 +415,44 @@ button.navbar-toggler {
   height: 332px;
   margin-top: 60px;
 }
-
+.custom-book{
+  position: relative;
+}
+.prebook {
+  position: absolute;
+  width: 531px !important;
+  height: 464px;
+  right: 6vw;
+  bottom: 5vw;
+}
+.pre-book {
+  position: absolute;
+  bottom: 1vw;
+  color: #000;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 28px;
+  text-decoration-line: underline;
+  right: 16vw;
+}
 .book-card figure svg {
   /* width: 202.893px; */
   height: 202.893px;
   flex-shrink: 0;
 }
-
+.row-book{
+  /* gap: -1vw; */
+}
+.custom-col-1{
+  flex: 0 0 auto;
+    width: 42% !important;
+}
+.custom-col-2{
+  flex: 0 0 auto;
+    width: 58% !important;
+}
 .books {
   margin-top: 20vw;
   height: 447px;
@@ -519,6 +550,7 @@ button.navbar-toggler {
 
 /* bonus  */
 .title{
+  /* position: absolute; */
   color: #1E1E1E;
   left: 50%;
   margin-top: 30vw;
@@ -663,4 +695,226 @@ letter-spacing: -0.55px;
     0% { transform: translateX(0); }
     100% { transform: translatex(-144vw); }
   }
+  .main-section{
+    background-image: url(../images/boysbg.png);
+    width: 387px;
+   height: 1315px;
+   margin-top: 12vw;
+   position: relative;
+  }
+  .first {
+    width: 141vw;
+    position: absolute;
+    margin-left: 26.8vw;
+    top: 6vw;
+    height: 347px;
+    background: #C80000;
+    box-shadow: 0px 4px 4px 4px rgba(188, 188, 188, 0.25);
+}
+.first-inner-card {
+  width: 468px;
+  position: absolute;
+  height: 234px;
+  border-radius: 20px;
+  background: #FFF;
+  padding: 3vw 2vw;
+  top: 3.8vw;
+  left: 3vw;
+}
+.first-inner-card p{
+  color: #000;
+  font-family: Comic Neue;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.first-inner-card h3{
+  color: #000;
+font-family: Bangers;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.number1 {
+  position: absolute;
+  color: #000;
+  font-family: Bangers;
+  left: 4vw;
+  top: 2vw;
+  z-index: 1;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 51px;
+  letter-spacing: 0.5px;
+}
+.section-two {
+  height: 362px;
+  background-color: #FFB801;
+  position: absolute;
+  width: 90vw;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  top: 40vw;
+}
+.yellow{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.yellow-left{
+  width: 620px;
+  margin-top: 3vw;
+height: 263px;
+ border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
+background: #FFF;
+}
+svg.yellow-left-ball {
+  position: absolute;
+  top: -2vw;
+  height: 15vw;
+}
+.yellow-card {
+  width: 393px;
+  height: 220px;
+  position: absolute;
+  flex-shrink: 0;
+  padding: 2vw 1vw;
+  left: 13vw;
+  /* top: 2vw; */
+}
+.yellow-card h3{
+  color: #000;
+  width: 393px;
+  text-align: right;
+  font-family: Bangers;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.yellow-card p{
+  width: 393px;
+  color: #000;
+  font-family: Comic Neue;
+  font-size: 18px;
+  font-style: normal;
+  margin-top: 2vw;
+
+  text-align: right;
+  font-weight: 700;
+  line-height: normal;
+}
+.number2 {
+  position: absolute;
+  color: #000;
+  font-family: Bangers;
+  left: 27vw;
+  top: -2vw;
+  z-index: 1;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 51px;
+  letter-spacing: 0.5px;
+}
+img.deliver {
+  height: 19vw;
+  margin: auto;
+}
+.third-inner-card {
+  width: 468px;
+  position: absolute;
+  height: 234px;
+  border-radius: 20px;
+  background: #FFF;
+  padding: 3vw 2vw;
+  top: 3.8vw;
+  right: 1vw;
+}
+.third-inner-card p{
+  color: #000;
+  font-family: Comic Neue;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.third-inner-card h3{
+  color: #000;
+font-family: Bangers;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.number3 {
+  position: absolute;
+  color: #000;
+  font-family: Bangers;
+  right: 30vw;
+  top: 2vw;
+  z-index: 1;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 51px;
+  letter-spacing: 0.5px;
+}
+.section-three {
+  position: absolute;
+  height: 321px;
+  top: 73vw;
+  z-index: -1;
+  width: 100vw;
+  background: #C80000;
+}
+.images-stacking{
+  width: 622px;
   
+height: 370px;
+display: flex;
+}
+.images-stacking img:nth-child(1){
+position: absolute;
+left: 27vw;
+}
+.images-stacking img:nth-child(2){
+position: absolute;
+left: 21vw;
+}
+.images-stacking img:nth-child(3){
+position: absolute;
+left: 15vw;
+}
+.images-stacking img:nth-child(4){
+position: absolute;
+left: 9vw;
+}
+.images-stacking img:nth-child(5){
+position: absolute;
+left: 2vw;
+}
+.images-stacking img:nth-child(6){
+position: absolute;
+left: 27vw;
+z-index: 1;
+}
+
+.red{
+  position: relative;
+}
+.red-images {
+  position: absolute;
+  left: 16vw;
+  /* height: 29vw; */
+  bottom: -24vw;
+}
+.section-three .butn {
+  position: absolute;
+  right: 17vw;
+  bottom: -26vw;
+}

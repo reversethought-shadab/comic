@@ -233,6 +233,8 @@ button.navbar-toggler {
 
 /* hero section  */
 .second-section {
+  
+    margin-top: 10vw;
 }
 .second-section::before {
   content: "";
@@ -410,8 +412,11 @@ button.navbar-toggler {
 .swiper-slide {
   /* border-radius: 18px; */
 }
+.swiper-3d .swiper-slide-shadow {
+  /* background: rgba(0,0,0,.15); */
+}
 .swiper-slide img{
-  height: 642px;
+  height: 100%;
   object-fit: cover !important;
 }
 .swiper-slide:nth-child(1n) {

@@ -51,7 +51,7 @@
            
         }
         .swiper-slide img {
-            height: 524px;
+            height: 100%;
             object-fit: cover !important;
         }
         .book-card {
@@ -101,6 +101,10 @@
     .right .right-heading {
         top: 30vw;
     }
+    .swiper-slide img {
+        height: 348px;
+        object-fit: cover !important;
+    }
     .right .right-para {
         font-size: 20px;
         top: 43vw;
@@ -116,9 +120,105 @@
     }
     .pm-text {
             font-size: 25px;
+        }
+        .price {
+            font-size: 16px;
+        }
+        .book-card {
+            padding: 48px 6px 29px 0;
+        border-radius: 0;
     }
-    .price {
-        font-size: 16px;
+    
+    .book-para {
+        font-size: 10px;
+    }
+    .title {
+        margin-top: 55vw;
+        font-size: 5vw;
+    }
+    .bonus {
+        margin-top: 17vw;
+        height: 137.968vw;
+    }
+    .bonus .left-top {
+        top: -11vw;
+        left: -13vw;
+        height: 18vw;
+    }
+    .group {
       
+        top: -13vw;
+        left: 21vw;
+        width: 60vw;
+    }
+    .middle-top {
+        flex-direction: column-reverse;
+        margin-top: 15vw;
+    }    
+    img.learner {
+        width: 57vw;
+        margin-top: 22vw;
+        /* margin-right: -3vw; */
+        height: 31vw;
+    }
+    .headphone{
+        height: 63vw;
+    }
+    .blank-inner::after {
+        content: "";
+        background-image: url(../images/blank-msg.png);
+        background-repeat: no-repeat;
+        position: absolute;
+        bottom: 0;
+        background-size: cover;
+        left: -6px;
+        z-index: -1;
+        top: -18px;
+        right: 0;
+        width: 175px;
+        height: 143.776px;
+    }
+    .bonus .right-bottom {
+        right: -5vw;
+        top: 128vw;
+        height: 19vw;
+    }
+    .marchand-left {
+        top: -13vw;
+        left: -19vw;
+        height: 40vw;
+    }
+    .m-text {
+       
+        right: 35vw;
+        top: -10vw;
+        font-size: 7vw;
+        
+    }
+}
+@media screen and (max-width:380px) {
+    .pm {
+        margin-top: 112vw;
+    }
+    img.learner {
+        width: 57vw;
+        margin-top: 5vw;
+        /* margin-right: -3vw; */
+        height: 29vw;
+    }
+    .headphone {
+        height: 54vw;
+    }
+    .bonus .butn {
+        bottom: -6vw;
+        right: 22vw;
+    }
+    .book-card {
+        padding: 48px 6px 56px 0;
+        border-radius: 0;
+    }
+    .swiper-slide img {
+        height: 279px;
+        object-fit: cover !important;
     }
 }

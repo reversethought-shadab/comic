@@ -1,0 +1,38 @@
+
+@media screen and (min-width:1440px) {
+   
+}
+@media screen and (max-width:991px) {
+   
+}
+@media screen and (max-width:767px) {
+   .second-banner {
+
+   }
+   section::before {
+    top: 113vw;
+}
+.right .right-para {
+    font-size: 22px;
+    top: 39vw;
+    width: 98%;
+    left: 2vw;
+}
+.right .butn {
+    top: 56.6vw;
+    left: 38%;
+}
+.right .right-heading {
+    left: 0;
+    top: 27vw;
+   width: 100%;
+}
+.right img {
+    position: absolute;
+    top: 0;
+    right: 5vw;
+}
+}
+@media screen and (min-width:1440px) {
+   
+}

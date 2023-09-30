@@ -295,6 +295,10 @@ button.navbar-toggler {
     top: 14.6vw;
     left: 44%;
 }
+/* .pm{
+  position: relative;
+} */
+
 /* .pm {
   background-image: url(../images/second-bg.png);
   background-position: center;
@@ -339,7 +343,61 @@ button.navbar-toggler {
   height: 143px;
 } */
 .pm{
+  margin-top: 12vw;
   padding: 12vw 0;
+  height: 59vw;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-image: url(../images/Full.png);
+}
+.full img:nth-child(1){
+ position: absolute;
+ top: 10vw;
+ left: 10vw;
+}
+.full img:nth-child(2) {
+  position: absolute;
+  bottom: 4vw;
+  left: 39vw;
+}
+.full img:nth-child(3) {
+  position: absolute;
+  bottom: 16vw;
+  right: 16vw;
+}
+.full img:nth-child(4) {
+  position: absolute;
+  top: 12vw;
+  right: 10vw;
+}
+.full img:nth-child(5) {
+  position: absolute;
+  bottom: 16vw;
+  left: 17vw;
+}
+.full img:nth-child(6) {
+  position: absolute;
+  top: 14vw;
+  left: 45vw;
+}
+.floating {  
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+@keyframes floating {
+  from { transform: translate(0,  0px); }
+  65%  { transform: translate(0, 15px); }
+  to   { transform: translate(0, -0px); }    
+}
+.pm-divider{
+  background-color:#FCCA5F;
+  height: 80px;
 }
 .book-card {
   padding: 15px 24px 15px 0;

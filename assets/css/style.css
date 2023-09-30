@@ -6,6 +6,7 @@
 }
 html {
   scroll-behavior: smooth;
+  overflow: auto;
 }
 ::selection {
   color: white;
@@ -339,7 +340,7 @@ button.navbar-toggler {
   padding: 12vw 0;
 }
 .book-card {
-  padding: 30px 24px;
+  padding: 15px 24px 15px 0;
   /* border-radius: 10px; */
   align-items: center;
   column-gap: 16px;
@@ -348,7 +349,8 @@ button.navbar-toggler {
   background-color: #fff;
   transition: 0.5s;
   overflow: hidden;
-  border-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
   position: relative;
   height: 332px;
   margin-top: 60px;
@@ -364,7 +366,7 @@ button.navbar-toggler {
   margin-top: 20vw;
   height: 447px;
   width: 100%;
-  border-radius: 20px;
+  /* border-radius: 20px; */
   background: #c80000;
   box-shadow: 0px 4px 4px 4px rgba(188, 188, 188, 0.25);
 }
@@ -406,7 +408,7 @@ button.navbar-toggler {
   bottom: 8vw;
 }
 .swiper-slide {
-  border-radius: 18px;
+  /* border-radius: 18px; */
 }
 .swiper-slide img{
   height: 642px;
@@ -469,7 +471,7 @@ letter-spacing: -0.55px;
   margin-top: 12vw;
   height: 652px;
   width: 100%;
-  border-radius: 20px;
+  /* border-radius: 20px; */
   background: #C80000;
   box-shadow: 0px 4px 4px 4px rgba(188, 188, 188, 0.25);
 }
@@ -542,7 +544,7 @@ flex-shrink: 0;
   z-index: 1;
 }
 .marchand{
-  border-radius: 20px;
+  /* border-radius: 20px; */
 background: #FFB801;
 box-shadow: 0px 4px 4px 4px rgba(188, 188, 188, 0.25);
 width: 100%;

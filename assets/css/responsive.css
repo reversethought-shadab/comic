@@ -15,7 +15,7 @@
 .right .right-para {
     font-size: 22px;
     top: 39vw;
-    width: 98%;
+    width: 95%;
     left: 2vw;
 }
 .right .butn {
@@ -32,7 +32,93 @@
     top: 0;
     right: 5vw;
 }
+.pm {
+    padding: 12vw 0;
+    margin-top: 66vw;
 }
-@media screen and (min-width:1440px) {
-   
+.books {
+    margin-top: 5vw;}
+    .row-books{
+        flex-direction: column-reverse;
+    }
+    .book-card {
+        padding: 15px 24px 15px 0;}
+        .swiper {
+            
+                width: 73%;
+                height: 78vw;
+                position: relative;
+           
+        }
+        .swiper-slide img {
+            height: 524px;
+            object-fit: cover !important;
+        }
+        .book-card {
+          margin: 0;
+        }
+        .bonus {
+            margin-top: 44vw;}
+            .bonus .left-top {
+                top: -11vw;
+                height: 19vw;
+            }
+            .bonus .right-bottom {  
+                right: 0;
+                top: 76vw;
+                height: 19vw;
+            }
+            .bonus .butn {
+                bottom: -4vw;
+                right: 32vw;
+            }
+            .middle-top {
+                margin-top: 15vw;
+            }
+            .group {
+                position: absolute;
+                top: -15vw;
+                left: 4vw;
+            }
+            img.learner {
+                width: 65vw;
+                height: 39vw;
+            }
+            .marquee-content {
+                margin-top: 10vw;
+            }
+            .marchand {
+                margin-top: 23vw;
+            }
+            .marchand-left {
+               
+                top: -6vw;
+                left: -10vw;
+                height: 12vw;
+            }
+}
+@media screen and (max-width:540px) {
+    .right .right-heading {
+        top: 30vw;
+    }
+    .right .right-para {
+        font-size: 20px;
+        top: 43vw;
+        width: 90%;
+        left: 5vw;
+    }
+    .right .butn {
+        top: 82.6vw;
+        left: 26%;
+    }
+    .pm {
+        margin-top: 102vw;
+    }
+    .pm-text {
+            font-size: 25px;
+    }
+    .price {
+        font-size: 16px;
+      
+    }
 }

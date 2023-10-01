@@ -1,358 +1,1488 @@
 
-@media screen and (min-width:1440px) {
-   
-}
-@media screen and (max-width:1200px) {
+@media screen and (min-width: 1460px) {
     .second-section::before {
-        content: "";
-        height: 278px;}
+        height: 23vw;
+    }
+  .right .right-para {
+    font-size: 27px;
+    line-height: 39px;
+  }
+  .left {
+    z-index: 1;
+    /* padding-left: 7vw; */
+    left: 9vw;
+  }
+  .right img {
+    position: absolute;
+    bottom: 2vw;
+    right: 6vw;
+    height: 12vw;
+  }
+  .action-btn2 span {
+    padding: 1vw 6vw;
+  }
+  .books {
+    height: 496px;
+  }
+  .custom-col-2 {
+    flex: 0 0 auto;
+    width: 55% !important;
+  }
+  .custom-col-2 {
+    flex: 0 0 auto;
+    width: 45% !important;
+  }
+  .pm-text {
+    color: #000;
+    font-family: Bangers;
+    font-size: 46px;
+    font-style: normal;
+    margin-bottom: 2.5rem !important;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 2px;
+  }
+  .row-books {
+    padding: 1vw 3vw;
+  }
+  .book-card {
+    column-gap: 0px;
+    height: 332px;
+    margin-top: 60px;
+  }
+  .prebook {
+    position: absolute;
+    width: 620px !important;
+    height: 621px;
+    right: -2vw;
+    padding: 0 -9vw;
+    bottom: 3vw;
+  }
+  .book-para {
+    color: #000;
+    font-family: Comic Neue;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 15px;
+  }
+  .book-card {
+    column-gap: 0px;
+    height: 391px;
+    left: -3vw;
+    margin-top: 23px;
+  }
+  .pre-book {
+    position: absolute;
+    bottom: 1vw;
+    color: #000;
+    font-family: Mulish;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 28px;
+    text-decoration-line: underline;
+    right: 7vw;
+  }
+  .first {
+    width: 160vw;
+    position: absolute;
+    margin-left: 19.8vw;
+    top: 6vw;
+    height: 421px;
+    background: #c80000;
+    box-shadow: 0px 4px 4px 4px rgba(188, 188, 188, 0.25);
+  }
+  .yellow-card {
+    width: 393px;
+    height: 220px;
+    position: absolute;
+    flex-shrink: 0;
+    padding: 2vw 1vw;
+    left: 9vw;
+  }
+  .number2 {
+    position: absolute;
+    color: #000;
+    font-family: Bangers;
+    left: 21vw;
+    top: -1vw;
+    z-index: 1;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 51px;
+    letter-spacing: 0.5px;
+  }
+  .first-inner-card {
+    width: 468px;
+    position: absolute;
+    height: 282px;
+    border-radius: 20px;
+    background: #fff;
+    padding: 3vw 2vw;
+    top: 3.8vw;
+    left: 3vw;
+  }
+  .section-two {
+    height: 412px;
+    background-color: #ffb801;
+    position: absolute;
+    width: 90vw;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    top: 29vw;
+  }
+  .yellow-left {
+    width: 620px;
+    margin-top: 3vw;
+    height: 303px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: #fff;
+  }
+  svg.yellow-left-ball {
+    position: absolute;
+    top: -5vw;
+    height: 15vw;
+  }
+  .yellow-right {
+    gap: 5rem !important;
+  }
+  .third-inner-card {
+    width: 612px;
+    position: absolute;
+    height: 247px;
+    border-radius: 20px;
+    background: #fff;
+    padding: 3vw 2vw;
+    top: 3.8vw;
+    right: 1vw;
+  }
+  .section-three {
+    position: absolute;
+    height: 321px;
+    top: 67vw;
+    z-index: -1;
+    width: 100vw;
+    background: #c80000;
+  }
+  .red-images {
+    position: absolute;
+    left: 13vw;
+    z-index: 99999;
+    /* height: 29vw; */
+    bottom: -19vw;
+  }
+  .number3 {
+    position: absolute;
+    color: #000;
+    font-family: Bangers;
+    right: 28vw;
+    top: 1vw;
+    z-index: 1;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 51px;
+    letter-spacing: 0.5px;
+  }
+  .third-inner-card {
+    width: 605px;
+    position: absolute;
+    height: 247px;
+    border-radius: 20px;
+    background: #fff;
+    padding: 3vw 2vw;
+    top: 1.8vw;
+    right: -1vw;
+  }
+  .section-three .butn {
+    position: absolute;
+    right: 11vw;
+    bottom: -19vw;
+  }
+  .title {
+    /* position: absolute; */
+    color: #1e1e1e;
+    left: 50%;
+    margin-top: 7vw;
+    font-family: Bangers;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: -0.55px;
+  }
+  .group {
+    position: absolute;
+    top: -11vw;
+    left: 15vw;
+  }
+  .middle-top {
+    margin-top: 10vw;
+  }
+  .faq {
+    height: 332px;
+    background: #C80000;
+    box-shadow: 0px 4px 4px 4px rgba(188, 188, 188, 0.25);
+    margin-top: 20vw;
+    position: relative;
+    width: 100%;
+}
+  img.headphone {
+    height: 19vw;
+  }
+  .bonus .butn {
+    position: absolute;
+    bottom: -2vw;
+    right: 27vw;
+    z-index: 1;
+  }
+  .bonus .right-bottom {
+    position: absolute;
+    right: 0;
+    top: 28vw;
+  }
+  .marchand {
+    /* border-radius: 20px; */
+    background: #ffb801;
+    box-shadow: 0px 4px 4px 4px rgba(188, 188, 188, 0.25);
+    width: 100%;
+    height: 558px;
+    position: relative;
+    margin-top: 24vw;
+  }
+  .m-text {
+    position: absolute;
+    right: 6vw;
+    top: -7vw;
+    color: #1e1e1e;
+    font-family: Bangers;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: -0.55px;
+  }
 
-.right img {
+  .marchand-left {
+    position: absolute;
+    top: -4vw;
+    left: 0;
+  }
+ .faq-list {
+    width: 770px;
+    position: absolute;
+    left: 12vw;
+    bottom: -24vw;
+}
+.result-faq {
+    width: 489px;
+    position: absolute;
+    height: 451px;
+    border-radius: 20px;
+    background: #FFB801;
+    box-shadow: 0px 4px 4px 4px rgba(188, 188, 188, 0.25);
+    right: 0vw;
+    bottom: -25vw;
+}
+}
+@media screen and (max-width: 1920px) {
+    .book-card {
+        column-gap: 27px !important;
+        height: 391px;
+        left: -3vw;
+        margin-top: 23px;
+    }
+    .prebook {
+        position: absolute;
+        width: 672px !important;
+        
+    }
+    .first-inner-card {
+        width: 580px;
+        position: absolute;
+        height: 261px;
+        border-radius: 20px;
+        background: #fff;
+        padding: 3vw 2vw;
+        top: 3.8vw;
+        left: 3vw;
+    }
+    .first {
+        width: 160vw;
+        position: absolute;
+        margin-left: 19.8vw;
+        top: 1vw;
+        height: 421px;
+        background: #c80000;
+        box-shadow: 0px 4px 4px 4px rgba(188, 188, 188, 0.25);
+    }
+    .third-ball {
+        position: absolute;
+        right: -2vw;
+        top: -7vw;
+      }
+      .section-two {
+        height: 412px;
+        background-color: #ffb801;
+        position: absolute;
+        width: 90vw;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        top: 27vw;
+    }
+    .faq-title {
+        position: absolute;
+        color: #000;
+        font-family: Bangers;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        top: -6vw;
+        left: 13vw;
+      }
+      .faq-right-ball {
+        position: absolute;
+        top: -9vw;
+        right: 0;
+        z-index: 0;
+      }
+      .faq-list {
+        width: 53vw;
+        position: absolute;
+        left: 12vw;
+        bottom: -20vw;
+    }
+    .result-faq {
+        width: 550px;
+        position: absolute;
+        height: 451px;
+        border-radius: 20px;
+        background: #FFB801;
+        box-shadow: 0px 4px 4px 4px rgba(188, 188, 188, 0.25);
+        right: 0vw;
+        bottom: -20vw;
+    } 
+    .show-box {
+        width: 421px;
+        position: relative;
+        height: 319px;
+        border-radius: 20px;
+        background: #FFF;
+        box-shadow: 0px 4px 4px 4px rgba(188, 188, 188, 0.25);
+        margin: 4vw;
+      }
+    .group {
+        position: absolute;
+        top: -8vw;
+        left: 15vw;
+    }
+    .middle-top {
+        margin-top: 7vw;
+    }
+    .swiper-slide img {
+        display: block;
+        width: 646px;
+        height: 617px;
+        object-fit: cover;
+      }
+    .section-three {
+        position: absolute;
+        height: 321px;
+        top: 52vw;
+        z-index: -1;
+        width: 100vw;
+        background: #c80000;
+    }
+}
+@media screen and (max-width: 1440px) {
+    .section-three {
+        position: absolute;
+        height: 321px;
+        top: 71vw;
+        z-index: -1;
+        width: 100vw;
+        background: #C80000;
+      }
+      .title{
+        /* position: absolute; */
+        color: #1E1E1E;
+        left: 50%;
+        margin-top: 11vw;
+        font-family: Bangers;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: -14%;
+        letter-spacing: -0.55px;
+      }
+      .group {
+        position: absolute;
+        top: -13vw;
+        left: 18vw;
+    }
+    .bonus .butn{
+        position: absolute;
+        bottom: -2vw;
+        right: 18vw;
+        z-index: 1;
+      }
+      .swiper-slide img {
+        display: block;
+        width: 546px;
+        height: 542px;
+        object-fit: cover;
+      }
+  .faq-list {
+    width: 766px;
+    position: absolute;
+    left: 13vw;
+    bottom: -25vw;
+  }
+  .section-two{
+    top: 35vw;
+  }
+  .result-faq {
+    width: 489px;
+    position: absolute;
+    height: 451px;
+    border-radius: 20px;
+    background: #FFB801;
+    box-shadow: 0px 4px 4px 4px rgba(188, 188, 188, 0.25);
+    right: 0vw;
+    bottom: -28vw;
+  }
+  .about-flex {
+    justify-content: space-around !important;
+  }
+  .left-about {
+    width: 665px;
+    height: 518px;
+    margin-top: 6vw;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: #fff;
+  }
+
+  .right img {
     position: absolute;
     bottom: 4.47vw;
     right: 5vw;
     height: 13vw;
-}
-.right .right-heading {
+  }
+  .right .right-heading {
     font-size: 25px;
     left: 18vw;
-   
-}
-.number1 {
+  }
+  .number1 {
     left: 4vw;
     top: 0vw;
     font-size: 59px;
-}
-.right .right-para {
+  }
+  .right .right-para {
     font-size: 18px;
     top: 0vw;
     left: 19vw;
-}
-img.floating {
+  }
+  img.floating {
     height: 6vw;
+  }
 }
-
+@media screen and (max-width: 1199px) {
+    .faq-list {
+        width: 577px;
+        position: absolute;
+        left: 9vw;
+        bottom: -28vw;
+      }
+      .books-ball {
+        position: absolute;
+        right: -4vw;
+        bottom: -7vw;
+        height: 19vw;
+    }
+      .result-faq {
+        width: 489px;
+        position: absolute;
+        height: 451px;
+        border-radius: 20px;
+        background: #FFB801;
+        box-shadow: 0px 4px 4px 4px rgba(188, 188, 188, 0.25);
+        right: 0vw;
+        bottom: -34vw;
+      }
+      .left-about {
+        width: 500px;
+        height: 518px;
+        margin-top: 6vw;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        background: #fff;
+      }
+      .section-three {
+        position: absolute;
+        height: 367px;
+        top: 83vw;
+        z-index: -1;
+        width: 100vw;
+        background: #C80000;
+      }
+      .images-stacking img:nth-child(1){position: absolute;left: 22vw;}
+.images-stacking img:nth-child(2){position: absolute;left: 18vw;}
+.images-stacking img:nth-child(3){position: absolute;left: 14vw;}
+.images-stacking img:nth-child(4){position: absolute;left: 10vw;}
+.images-stacking img:nth-child(5){position: absolute;left: 10vw;}
+.number3 {
+    position: absolute;
+    color: #000;
+    font-family: Bangers;
+    right: 29vw;
+    top: 2vw;
+    z-index: 1;
+    font-size: 51px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 51px;
+    letter-spacing: 0.5px;
+  }
+  .third-inner-card {
+    width: 390px;
+    position: absolute;
+    height: 234px;
+    border-radius: 20px;
+    background: #FFF;
+    padding: 2vw 2vw;
+    top: 3.8vw;
+    right: 1vw;
+  }
+  .section-three .butn {
+    position: absolute;
+    right: 14vw;
+    bottom: -32vw;
+  }
+  .yellow-card p{
+    width: 300px;
+  }
+  .yellow-card h3{
+    width: 300px;
+  }
+  .number2 {
+   
+    left: 24vw;
+    top: -2vw;
+    font-size: 70px;
+    line-height: 44px;
+  }
+  .number1 {
+    left: 4vw;
+    top: 2vw;
+    font-size: 59px;
+  }
+  .title{
+    /* position: absolute; */
+    color: #1E1E1E;
+    left: 50%;
+    margin-top: 17vw;
+    font-family: Bangers;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19%;
+    letter-spacing: -0.55px;
+  }
+  .group {
+    position: absolute;
+    top: -12vw;
+    left: 7vw;
+  }
+  .bonus .right-bottom{
+    position: absolute;
+    right: 0;
+    top: 44vw;
+  }
+  .bonus .butn{
+    position: absolute;
+    bottom: -2vw;
+    right: 11vw;
+    z-index: 1;
+  }
+  .second-section::before {
+    height: 300px;
+  }
 }
-@media screen and (max-width:767px) {
-   .second-banner {
-
-   }
-   .number1 {
+@media screen and (max-width: 991px) {
+   
+.second-section::before {
+    height: 260px;
+}
+.right img {
+    position: absolute;
+    bottom: 4.47vw;
+    right: 5vw;
+    height: 12vw;
+  }
+  .right .right-heading {
+    font-size: 21px;
+    left: 13vw;
+  }
+  .right .right-para {
+    font-size: 16px;
+    line-height: 22px;
+    top: 0vw;
+    left: 12vw;
+  }
+  .right .butn {
+    position: absolute;
+    top: 17.6vw;
+    left: 33%;
+  }
+  .full img:nth-child(2) {
+    position: absolute;
+    bottom: 5vw;
+    height: 10vw;
+    left: 41vw;
+  }
+  .prebook {
+    position: absolute;
+    width: 352px !important;
+    height: 357px;
+    right: 5vw;
+    bottom: 4vw;
+}
+  .pre-book {
+    bottom: 0vw;
+    right: 17vw;
+  }
+  .custom-col-2 {
+    flex: 0 0 auto;
+    width: 45% !important;
+}
+  .custom-col-1 {
+    flex: 0 0 auto;
+    width: 55% !important;
+}
+.section-two {
+    height: 362px;
+    background-color: #FFB801;
+    position: absolute;
+    width: 100vw;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    top: 40vw;
+  }
+  .yellow-card {
+    width: 393px;
+    height: 220px;
+    position: absolute;
+    flex-shrink: 0;
+    padding: 2vw 1vw;
+    left: 4vw;
+    /* top: 2vw; */
+  }
+  .number2 {
+   
+    left: 32vw;
+       
+    top: -2vw;
+       
+    font-size: 70px;
+       
+    line-height: 19px;
+      }
+      .section-three {
+        position: absolute;
+        height: 446px;
+        top: 108vw;
+        z-index: -1;
+        width: 100vw;
+        background: #C80000;
+      }
+      .red-images {
+        position: absolute;
+        left: 23vw;
+        /* height: 29vw; */
+        bottom: -17vw;
+      }
+      
+      .third-inner-card {
+        width: 385px;
+        position: absolute;
+        height: 234px;
+        border-radius: 20px;
+        background: #FFF;
+        padding: 2vw 2vw;
+        top: 17.8vw;
+        right: 24vw;
+      }
+      .section-three .butn {
+        position: absolute;
+        right: 33vw;
+        bottom: -54vw;
+      }
+      .group {
+        position: absolute;
+        top: -12vw;
+        height: 20vw;
+        left: 10vw;
+      }
+      .about-flex {
+        justify-content: space-around !important;
+        flex-direction: column-reverse;
+      }
+      .left-about {
+        width: 100%;
+        height: 385px;
+        margin-top: 6vw;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        background: #fff;
+      }
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .about-author{
+        position: relative;
+        background-color: #C80000;
+        height: 107vw;
+        margin-top:20vw;
+        box-shadow: 0px 4px 4px 4px rgba(188, 188, 188, 0.25);
+      }
+      h3.author {
+        top: -8vw;
+      }
+      .result-faq {
+        width: 451px;
+        position: absolute;
+        height: 382px;
+        border-radius: 20px;
+        background: #FFB801;
+        box-shadow: 0px 4px 4px 4px rgba(188, 188, 188, 0.25);
+        right: 0vw;
+        bottom: -41vw;
+      }
+      .faq-list {
+        width: 405px;
+        position: absolute;
+        left: 2vw;
+        bottom: -38vw;
+      }
+      .faq-right-ball {
+        position: absolute;
+        top: -6vw;
+        right: 0;
+        z-index: 0;
+        height: 18vw;
+      }
+      .about-author .about-top{
+        position: absolute;
+        top: -9vw;
+        right: -8vw;
+        z-index: -1;
+        height: 16vw;
+      }
+      .about-author .about-bottom{
+        position: absolute;
+        bottom: -5vw;
+        left: -7vw;
+        height: 18vw;
+      }
+      .marchand-left{
+        position: absolute;
+        top: -7vw;
+        left: -5vw;
+        height: 17vw;
+      }
+}
+@media screen and (max-width: 767px) {
+    .yellow-card p{
+        width: 84vw;
+        margin-top: 8vw;
+        text-align: center;
+      }
+      .book-title {
+        position: absolute;
+        color: #000;
+        font-family: Bangers;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 51px;
+        letter-spacing: 0.5px;
+        top: -77vw;
+        left: 32vw;
+    }
+  .number1 {
     left: 4vw;
     top: 0vw;
     font-size: 59px;
-}
-   .custom-col-2{
+  }
+  .custom-col-2 {
     width: 100% !important;
-   }
-   .custom-col-1{
+  }
+  .custom-col-1 {
     width: 100% !important;
-   }
-   .prebook {
+  }
+  .prebook {
     position: absolute;
     width: 531px !important;
     height: 464px;
     right: 13vw;
     bottom: 5vw;
-}
-   section::before {
+  }
+  section::before {
     top: 113vw;
-}
-.right .right-para {
+  }
+  .right .right-para {
     font-size: 22px;
     top: 39vw;
     width: 95%;
     left: 2vw;
-}
-.right .butn {
+  }
+  .right .butn {
     top: 56.6vw;
     left: 38%;
-}
-.right .right-heading {
+  }
+  .right .right-heading {
     left: 0;
     top: 27vw;
-   width: 100%;
-}
-.right img {
+    width: 100%;
+  }
+  .right img {
     position: absolute;
     top: 7vw;
     right: 30vw;
-}
-.pm {
+  }
+  .pm {
     padding: 12vw 0;
     margin-top: 66vw;
+  }
+  .books {
+    margin-top: 88vw;
+  }
+  .books-ball {
+    position: absolute;
+    right: -4vw;
+    z-index: 1;
+    bottom: -7vw;
+    height: 19vw;
 }
-.books {
-    margin-top: 83vw;}
-    .row-books{
-        flex-direction: column-reverse;
-    }
-    .book-card {
-        padding: 15px 24px 15px 0;}
-        .swiper {
-            
-                width: 73%;
-                height: 78vw;
-                position: relative;
-           
-        }
-        .swiper-slide img {
-            height: 100%;
-            object-fit: cover !important;
-        }
-        .book-card {
-            /* margin: 0; */
-            border-radius: 0;
-        }
-        .pre-book {
-           
-            bottom: 0vw;
-            font-size: 16px;
-            right: 44vw;
-        }
-        .yellow {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-direction: column;
-        }
-        .section-two {
-            height: 92vw;
-            background-color: #FFB801;
-            position: absolute;
-            width: 100vw;
-            border-top-right-radius: 20px;
-            border-bottom-right-radius: 20px;
-            top: 63vw;
-        }
-        .section-three {
-            position: absolute;
-            height: 444px;
-            top: 184vw;
-            z-index: -1;
-            width: 100vw;
-            background: #C80000;
-        }
-        .red-images {
-            position: absolute;
-            left: 24vw;
-            /* height: 29vw; */
-            bottom: -22vw;
-        }
-       
-        .third-inner-card {
-            width: 100vw !important;
-            padding: 4vw 6vw;
-            top: 22.8vw;
-            height: 186px;
-            border-radius: 0;
-            right: 0;
-        }
-        .section-three .butn {
-            position: absolute;
-            right: 35vw;
-            bottom: -53vw;
-        }
-        .number3 {
-            position: absolute;
-            color: #000;
-            font-family: Bangers;
-            left: 3vw;
-            top: 19vw;
-            z-index: 1;
-            font-size: 59px;
-        }
-        .yellow-left {
-            width: 100vw;
-            margin-top: 3vw;
-            height: 263px;
-            border-radius: 0;
-            background: #FFF;
-        }
-       .yellow-card .number2 {
-            left: 59vw;
-            top: -3vw;
-            font-size: 59px;
-        }
-        .images-stacking {
-            width: 490px;
-            height: 352px;
-            z-index: 1;
-            display: flex;
-        }
-        img.deliver {
-            height: 44vw;
-            margin: auto;
-        }
-        .title {
-            left: 43%;
-            margin-top: 71vw;
-            font-size: 29px;
-        }
-        .bonus {
-            margin-top: 90vw;
-            height: 613px;
-        }
-            .bonus .left-top {
-                top: -11vw;
-                height: 19vw;
-            }
-            .bonus .right-bottom {  
-                right: 0;
-                top: 76vw;
-                height: 19vw;
-            }
-            .bonus .butn {
-                bottom: -4vw;
-                right: 32vw;
-            }
-            .middle-top {
-                margin-top: 15vw;
-            }
-            .group {
-                position: absolute;
-                top: -15vw;
-                left: 4vw;
-            }
-            img.learner {
-                width: 65vw;
-                height: 39vw;
-            }
-            .marquee-content {
-                margin-top: 10vw;
-            }
-            .marchand {
-                margin-top: 23vw;
-            }
-            .marchand-left {
-               
-                top: -6vw;
-                left: -10vw;
-                height: 12vw;
-            }
+  .row-books {
+    flex-direction: column-reverse;
+  }
+  .book-card {
+    padding: 15px 24px 15px 0;
+  }
+  .swiper {
+    width: 73%;
+    height: 78vw;
+    position: relative;
+  }
+  .swiper-slide img {
+    height: 100%;
+    object-fit: cover !important;
+  }
+  .book-card {
+    /* margin: 0; */
+    border-radius: 0;
+  }
+  .pre-book {
+    bottom: 0vw;
+    font-size: 16px;
+    right: 44vw;
+  }
+  .yellow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  .section-two {
+    height: 92vw;
+    background-color: #ffb801;
+    position: absolute;
+    width: 100vw;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    top: 63vw;
+  }
+  .section-three {
+    position: absolute;
+    height: 444px;
+    top: 184vw;
+    z-index: -1;
+    width: 100vw;
+    background: #c80000;
+  }
+  .red-images {
+    position: absolute;
+    left: 24vw;
+    /* height: 29vw; */
+    bottom: -22vw;
+  }
+
+  .third-inner-card {
+    width: 100vw !important;
+    padding: 4vw 6vw;
+    top: 22.8vw;
+    height: 186px;
+    border-radius: 0;
+    right: 0;
+  }
+  .section-three .butn {
+    position: absolute;
+    right: 35vw;
+    bottom: -53vw;
+  }
+  .number3 {
+    position: absolute;
+    color: #000;
+    font-family: Bangers;
+    left: 3vw;
+    top: 19vw;
+    z-index: 1;
+    font-size: 59px;
+  }
+  .yellow-left {
+    width: 100vw;
+    margin-top: 3vw;
+    height: 263px;
+    border-radius: 0;
+    background: #fff;
+  }
+  .yellow-card .number2 {
+    left: 85vw;
+    top: -2vw;
+    font-size: 71px;
+  }
+  .images-stacking {
+    width: 490px;
+    height: 352px;
+    z-index: 1;
+    display: flex;
+  }
+  img.deliver {
+    height: 44vw;
+    margin: auto;
+  }
+  .title {
+    left: 43%;
+    margin-top: 71vw;
+    font-size: 29px;
+  }
+  .bonus {
+    margin-top: 18vw;
+    height: 613px;
+  }
+  .bonus .left-top {
+    top: -8vw;
+    left: -4vw;
+    height: 14vw;
 }
-@media screen and (max-width:540px) {
-    .right .right-heading {
-        top: 30vw;
-    }
-    .swiper-slide img {
-        height: 348px;
-        object-fit: cover !important;
-    }
-    .right .right-para {
-        font-size: 20px;
-        top: 43vw;
-        width: 90%;
-        left: 5vw;
-    }
-    .right .butn {
-        top: 82.6vw;
-        left: 26%;
-    }
-    .pm {
-        margin-top: 102vw;
-    }
-    .pm-text {
-            font-size: 25px;
-        }
-        .price {
-            font-size: 16px;
-        }
-        .book-card {
-            padding: 48px 6px 29px 0;
-        border-radius: 0;
-    }
-    
-    .book-para {
-        font-size: 10px;
-    }
-    .title {
-        margin-top: 55vw;
-        font-size: 5vw;
-    }
-    .bonus {
-        margin-top: 17vw;
-        height: 137.968vw;
-    }
-    .bonus .left-top {
-        top: -11vw;
-        left: -13vw;
-        height: 18vw;
-    }
-    .group {
-      
-        top: -13vw;
-        left: 21vw;
-        width: 60vw;
-    }
-    .middle-top {
-        flex-direction: column-reverse;
-        margin-top: 15vw;
-    }    
-    img.learner {
-        width: 57vw;
-        margin-top: 22vw;
-        /* margin-right: -3vw; */
-        height: 31vw;
-    }
-    .headphone{
-        height: 63vw;
-    }
-    .blank-inner::after {
-        content: "";
-        background-image: url(../images/blank-msg.png);
-        background-repeat: no-repeat;
-        position: absolute;
-        bottom: 0;
-        background-size: cover;
-        left: -6px;
-        z-index: -1;
-        top: -18px;
-        right: 0;
-        width: 175px;
-        height: 143.776px;
-    }
-    .bonus .right-bottom {
-        right: -5vw;
-        top: 128vw;
-        height: 19vw;
-    }
-    .marchand-left {
-        top: -13vw;
-        left: -19vw;
-        height: 40vw;
-    }
-    .m-text {
-       
-        right: 35vw;
-        top: -10vw;
-        font-size: 7vw;
-        
-    }
+.faq{
+    height: 352px;
+    background: #C80000;
+    box-shadow: 0px 4px 4px 4px rgba(188, 188, 188, 0.25);
+    margin-top: 46vw;
+    position: relative;
+    width: 100%;
+  }
+  .main-faq {
+    position: static !important;
+    flex-direction: column;
+  }
+  .result-faq {
+    width: 100%;
+    position: absolute;
+    height: 382px;
+    border-radius: 20px;
+    background: #FFB801;
+    box-shadow: 0px 4px 4px 4px rgba(188, 188, 188, 0.25);
+    /* right: 21vw; */
+    bottom: -44vw;
+  }
+  .show-box {
+    width: 91%;
+    position: relative;
+    padding: 1vw 1vw;
+    height: 319px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 4px rgba(188, 188, 188, 0.25);
+    margin: 4vw;
+  }
+  .show-box p{
+    color: #000;
+    text-align: center;
+    font-family: Comic Neue;
+    font-size: 21px;
+    padding: 2vw 7vw;
+    position: absolute;
+    top: 20%;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 155.556% */
+  }
+  .faq-list {
+    width: 79%;
+    position: absolute;
+    left: 10vw;
+    bottom: -38vw;
+  }
+  .tab-label {
+    padding: 1vw 6vw;
+    margin-top: 1vw;
+  }
+  .list-group-item .active .tab-label {
+    padding: 1vw 6vw;
+    margin-top: 1vw;
+  }
+  .bonus .right-bottom {
+    right: -2vw;
+    top: 76vw;
+    height: 14vw;
 }
-@media screen and (max-width:380px) {
-    .pm {
-        margin-top: 112vw;
-    }
-    img.learner {
-        width: 57vw;
-        margin-top: 5vw;
-        /* margin-right: -3vw; */
-        height: 29vw;
-    }
-    .headphone {
-        height: 54vw;
-    }
-    .bonus .butn {
-        bottom: -6vw;
-        right: 22vw;
-    }
-    .book-card {
-        padding: 48px 6px 56px 0;
-        border-radius: 0;
-    }
-    .swiper-slide img {
-        height: 279px;
-        object-fit: cover !important;
-    }
+.about-author .about-bottom{
+    position: absolute;
+    bottom: -39vw;
+    left: -11vw;
+    height: 18vw;
+  }
+  .bonus .butn {
+    bottom: -4vw;
+    right: 32vw;
+  }
+  .middle-top {
+    margin-top: 15vw;
+  }
+  .group {
+    position: absolute;
+    top: -15vw;
+    left: 4vw;
+  }
+  img.learner {
+    width: 65vw;
+    height: 39vw;
+  }
+  .marquee-content {
+    margin-top: 10vw;
+  }
+  .marchand {
+    margin-top: 23vw;
+  }
+  .marchand-left {
+    top: -6vw;
+    left: -10vw;
+    height: 12vw;
+  }
+}
+@media screen and (max-width: 540px) {
+  .right .right-heading {
+    top: 30vw;
+  }
+  .books-ball {
+    position: absolute;
+    right: -14vw;
+    z-index: 1;
+    bottom: 0vw;
+    height: 19vw;
+}
+.books .butn {
+    position: absolute;
+    bottom: 1vw;
+    left: 34vw;
+}
+  .swiper-slide img {
+    height: 348px;
+    object-fit: cover !important;
+  }
+  .right .right-para {
+    font-size: 20px;
+    top: 43vw;
+    width: 90%;
+    left: 5vw;
+  }
+  .right .butn {
+    top: 73.6vw;
+    left: 32%;
+  }
+  .pm {
+    margin-top: 102vw;
+  }
+  .pm-text {
+    font-size: 25px;
+  }
+  .price {
+    font-size: 16px;
+  }
+  .book-card {
+    padding: 48px 6px 29px 0;
+    border-radius: 0;
+  }
+
+  .book-para {
+    font-size: 10px;
+  }
+  .title {
+    margin-top: 8vw;
+    font-size: 5vw;
+  }
+  .bonus {
+    margin-top: 17vw;
+    height: 137.968vw;
+  }
+  .bonus .left-top {
+    top: -11vw;
+    left: -7vw;
+    height: 18vw;
+  }
+  .group {
+    top: -13vw;
+    left: 21vw;
+    width: 60vw;
+  }
+  .books {
+    margin-top: 108vw;
+}
+.pm-divider {
+    height: 70px;
+}
+.pm-divider img{
+    height: 19vw;
+}
+.right img {
+    position: absolute;
+    top: 10vw;
+    right: 21vw;
+    height: 20vw;
+  }
+  .middle-top {
+    flex-direction: column-reverse;
+    margin-top: 15vw;
+  }
+  img.learner {
+    width: 57vw;
+    margin-top: 22vw;
+    /* margin-right: -3vw; */
+    height: 31vw;
+  }
+  .headphone {
+    height: 63vw;
+  }
+  .blank-inner::after {
+    content: "";
+    background-image: url(../images/blank-msg.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    background-size: cover;
+    left: -6px;
+    z-index: -1;
+    top: -18px;
+    right: 0;
+    width: 175px;
+    height: 143.776px;
+  }
+  .bonus .right-bottom {
+    right: -5vw;
+    top: 128vw;
+    height: 19vw;
+  }
+  .marchand-left {
+    top: -13vw;
+    left: -19vw;
+    height: 40vw;
+  }
+  .m-text {
+    right: 35vw;
+    top: -10vw;
+    font-size: 7vw;
+  }
+  .faq{
+    height: 500px;
+    background: #C80000;
+    box-shadow: 0px 4px 4px 4px rgba(188, 188, 188, 0.25);
+    margin-top: 98vw;
+    position: relative;
+    width: 100%;
+  }
+  .faq-list {
+    width: 79%;
+    position: absolute;
+    left: 10vw;
+    bottom: -68vw;
+  }
+  .faq-title {
+    position: absolute;
+    color: #000;
+    font-family: Bangers;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    top: -13vw;
+    left: 38vw;
+  }
+  .about-author .about-bottom{
+    position: absolute;
+    bottom: -88vw;
+    left: -19vw;
+    height: 18vw;
+  }
+  h3.author {
+    top: -12vw;
+    left: 32vw;
+    font-size: 5vw;
+  }
+  .about-author .about-top{
+    position: absolute;
+    top: -9vw;
+    right: -19vw;
+    z-index: -1;
+    height: 16vw;
+  }
+  .marchand-left {
+    top: -4vw;
+    left: -14vw;
+    height: 19vw;
+  }
+  .yellow-right {
+    flex-direction: column-reverse;
+  }
+  img.deliver {
+    height: 91vw;
+    margin: auto;
+}
+.yellow-card p {
+    width: 89vw;
+    margin-top: 8vw;
+    text-align: center;
+}
+.main-section{
+    background-image: none;
+}
+.first {
+    width: 119%;
+    border-radius: 0;
+    background: none;
+    margin: 0;
+    top: -4vw;
+}
+.prebook {
+    position: absolute;
+    width: 86% !important;
+    height: auto;
+    right: 2vw;
+    bottom: 4vw;
+  }
+  .section-three {
+    position: absolute;
+    height: 444px;
+    top: 354vw;
+    z-index: -1;
+    width: 100vw;
+    background: #c80000;
+  }
+  .number1 {
+    left: 4vw;
+    top: -6vw;
+    font-size: 59px;
+  }
+  .red-images {
+    position: absolute;
+    left: 7vw;
+    /* height: 29vw; */
+    bottom: -19vw;
+  }
+  .section-three .butn {
+    position: absolute;
+    right: 35vw;
+    bottom: -88vw;
+  }
+  .title {
+    margin-top: 173vw;
+    font-size: 5vw;
+}
+  .third-inner-card {
+    width: 100vw !important;
+    padding: 4vw 6vw;
+    top: 30.8vw;
+    height: 186px;
+    border-radius: 0;
+    right: 0;
+  }
+  .number3 {
+    position: absolute;
+    color: #000;
+    font-family: Bangers;
+    left: 3vw;
+    top: 25vw;
+    z-index: 1;
+    font-size: 59px;
+  }
+.first-inner-card {
+    width: 100%;
+    position: absolute;
+    height: 234px;
+    border-radius: 20px;
+    background: #FFF;
+    padding: 3vw 2vw;
+    top: 3.8vw;
+    left: 5vw;
+  }
+  .first-inner-card p {
+    color: #000;
+    margin-top: 6vw;
+    width: 93%;
+    font-family: Comic Neue;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+}
+@media screen and (max-width: 380px) {
+  .pm {
+    margin-top: 112vw;
+  }
+  .right .butn {
+    top: 89.6vw;
+    left: 26%;
+  }
+  .pm-divider {
+    height: 46px;
+}
+.books-ball {
+    position: absolute;
+    right: -14vw;
+    z-index: 1;
+    bottom: 0vw;
+    display: none;
+    height: 19vw;
+}
+.pre-book {
+    bottom: 0vw;
+    font-size: 16px;
+    right: 35vw;
+}
+.book-card figure svg {
+    /* width: 202.893px; */
+    height: 148.893px;
+    flex-shrink: 0;
+}
+  img.learner {
+    width: 57vw;
+    margin-top: 5vw;
+    /* margin-right: -3vw; */
+    height: 29vw;
+  }
+  .headphone {
+    height: 54vw;
+  }
+  .bonus .butn {
+    bottom: -6vw;
+    right: 22vw;
+  }
+  .book-card {
+    padding: 26px 6px 20px 0;
+    border-radius: 0;
+    column-gap: 0;
+    height: 327px;
+    margin-top: 61px;
+}
+.yellow-right {
+    width: 86%;
+  
+}
+.section-three {
+    position: absolute;
+    height: 444px;
+    top: 401vw;
+    z-index: -1;
+    width: 100vw;
+    background: #c80000;
+}
+.red-images {
+    position: absolute;
+    left: -1vw;
+    /* height: 29vw; */
+    bottom: -19vw;
+}
+.third-inner-card {
+    width: 100vw !important;
+    padding: 4vw 6vw;
+    top: 30.8vw;
+    height: 230px;
+    border-radius: 0;
+    right: 0;
+}
+.number3 {
+    position: absolute;
+    color: #000;
+    font-family: Bangers;
+    left: 79vw;
+    top: 25vw;
+    z-index: 1;
+    font-size: 59px;
+}
+.section-three .butn {
+    position: absolute;
+    right: 28vw;
+    bottom: -115vw;
+}
+.faq-title {
+    position: absolute;
+    color: #000;
+    font-family: Bangers;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    top: -31vw;
+    left: 31vw;
+}
+.faq {
+    height: 500px;
+    background: #C80000;
+    box-shadow: 0px 4px 4px 4px rgba(188, 188, 188, 0.25);
+    margin-top: 193vw;
+    position: relative;
+    width: 100%;
+}
+.faq-list {
+    width: 81%;
+    position: absolute;
+    left: 10vw;
+    bottom: -86vw;
+}
+.result-faq {
+    width: 100%;
+    position: absolute;
+    height: 382px;
+    border-radius: 20px;
+    background: #FFB801;
+    box-shadow: 0px 4px 4px 4px rgba(188, 188, 188, 0.25);
+    /* right: 21vw; */
+    bottom: -55vw;
+}
+.faq-right-ball {
+    position: absolute;
+    top: -6vw;
+    right: -49px;
+    z-index: 0;
+    height: 18vw;
+}
+.about-author .about-bottom{
+    display: none;
+}
+  .swiper-slide img {
+    height: 279px;
+    object-fit: cover !important;
+  }
 }

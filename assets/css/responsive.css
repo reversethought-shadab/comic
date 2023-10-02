@@ -398,7 +398,7 @@
         background: #c80000;
     }
 }
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 1340px) {
     .section-three {
         position: absolute;
         height: 321px;
@@ -479,7 +479,7 @@
   }
   .number1 {
     left: 4vw;
-    top: 0vw;
+    top: 2vw;
     font-size: 59px;
   }
   .right .right-para {
@@ -490,6 +490,27 @@
   img.floating {
     height: 6vw;
   }
+  .books {
+    margin-top: 20vw;
+    height: 483px;
+    width: 100%;
+    position: relative;
+    /* border-radius: 20px; */
+    background: #c80000;
+    box-shadow: 0px 4px 4px 4px rgba(188, 188, 188, 0.25);
+}
+.pre-book {
+  position: absolute;
+  bottom: -1vw;
+  color: #000;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 28px;
+  text-decoration-line: underline;
+  right: 22vw;
+}
 }
 @media screen and (max-width: 1199px) {
     .faq-list {
@@ -1086,6 +1107,47 @@
   .right .right-heading {
     top: 30vw;
   }
+  .book-card {
+    padding: 26px 6px 20px 0;
+    border-radius: 0;
+    display: inline-block !important;
+    column-gap: 0vw;
+    height: 371px;
+    margin-top: 61px;
+  }
+  .book-card figure svg {
+    width: 202.893px;
+    margin-left: 20vw;
+    height: 83.893px;
+    flex-shrink: 0;
+  }
+  .book-card-text {
+    margin-left: 12vw;
+  }
+  .pm-text {
+    font-size: 25px;
+    margin-top: 1vw;
+    margin-left: 26vw;
+}
+  
+  .price {
+    font-size: 16px;
+    font-size: 22px;
+    margin-top: -3vw;
+    margin-left: 27vw;
+}
+.books .butn {
+  position: absolute;
+  bottom: -7vw;
+  left: 34vw;
+}
+.book-card figure svg {
+  width: 202.893px;
+  margin-left: 29vw;
+  height: 79.893px;
+  flex-shrink: 0;
+}
+ 
   .books-ball {
     position: absolute;
     right: -14vw;
@@ -1094,9 +1156,9 @@
     height: 19vw;
 }
 .books .butn {
-    position: absolute;
-    bottom: 1vw;
-    left: 34vw;
+  position: absolute;
+  bottom: -7vw;
+  left: 34vw;
 }
   .swiper-slide img {
     height: 348px;
@@ -1266,6 +1328,7 @@
 }
 .main-section{
     background-image: none;
+    margin-top: 16vw;
 }
 .first {
     width: 119%;
@@ -1306,7 +1369,7 @@
     bottom: -88vw;
   }
   .title {
-    margin-top: 173vw;
+    margin-top: 184vw;
     font-size: 5vw;
 }
   .third-inner-card {
@@ -1317,6 +1380,12 @@
     border-radius: 0;
     right: 0;
   }
+  .third-ball {
+    position: absolute;
+    right: -9vw;
+    top: 20vw;
+    height: 15vw;
+}
   .number3 {
     position: absolute;
     color: #000;
@@ -1345,6 +1414,9 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+.floating{
+  height: 8vw;
 }
 }
 @media screen and (max-width: 380px) {
@@ -1481,8 +1553,128 @@
 .about-author .about-bottom{
     display: none;
 }
+.floating{
+  height: 8vw;
+}
   .swiper-slide img {
     height: 279px;
     object-fit: cover !important;
   }
+}
+@media screen and (max-width: 340px) {
+  .floating{
+    height: 8vw;
+  }
+/* .book-card {
+    padding: 26px 6px 20px 0;
+    border-radius: 0;
+    column-gap: 0vw;
+    height: 327px;
+    margin-top: 61px;
+} */
+.book-card {
+  padding: 26px 6px 20px 0;
+  border-radius: 0;
+  display: inline-block !important;
+  column-gap: 0vw;
+  height: 371px;
+  margin-top: 61px;
+}
+.book-card figure svg {
+  width: 202.893px;
+  margin-left: 20vw;
+  height: 83.893px;
+  flex-shrink: 0;
+}
+.book-card-text {
+  margin-left: 12vw;
+}
+.pm-text {
+  font-size: 25px;
+  margin-top: 4vw;
+  margin-left: 18vw;
+}
+
+.price {
+  font-size: 16px;
+  font-size: 22px;
+  margin-top: 1vw;
+  margin-left: 13vw;
+}
+.books .butn {
+  position: absolute;
+  bottom: -9vw;
+  left: 22vw;
+}
+.main-section {
+  background-image: none;
+  margin-top: 19vw;
+}
+.red-images {
+  position: absolute;
+  left: -3vw;
+  /* height: 29vw; */
+  bottom: -33vw;
+}
+.third-inner-card {
+  width: 100vw !important;
+  padding: 4vw 6vw;
+  top: 45.8vw;
+  height: 241px;
+  border-radius: 0;
+  right: 0;
+}
+.number3 {
+  position: absolute;
+  color: #000;
+  font-family: Bangers;
+  left: 79vw;
+  top: 39vw;
+  z-index: 1;
+  font-size: 59px;
+}
+.section-three .butn {
+  position: absolute;
+  right: 28vw;
+  bottom: -138vw;
+}
+.title {
+  margin-top: 153vw;
+  font-size: 5vw;
+}
+.faq {
+  height: 536px;
+  background: #C80000;
+  box-shadow: 0px 4px 4px 4px rgba(188, 188, 188, 0.25);
+  margin-top: 194vw;
+  position: relative;
+  width: 100%;
+}
+.faq-title {
+  position: absolute;
+  color: #000;
+  font-family: Bangers;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  top: -34vw;
+  left: 31vw;
+}
+.faq-list {
+  width: 81%;
+  position: absolute;
+  left: 10vw;
+  bottom: -102vw;
+}
+.result-faq {
+  width: 100%;
+  position: absolute;
+  height: 382px;
+  border-radius: 20px;
+  background: #FFB801;
+  box-shadow: 0px 4px 4px 4px rgba(188, 188, 188, 0.25);
+  /* right: 21vw; */
+  bottom: -61vw;
+}
 }

@@ -415,9 +415,9 @@ button.navbar-toggler {
 }
 .prebook {
   position: absolute;
-  width: 531px !important;
-  height: 464px;
-  right: 6vw;
+  width: 530px !important;
+  height: 548px;
+  right: 7vw;
   bottom: 5vw;
 }
 .pre-book {
@@ -430,7 +430,7 @@ button.navbar-toggler {
   font-weight: 800;
   line-height: 28px;
   text-decoration-line: underline;
-  right: 16vw;
+  right: 20vw;
 }
 .book-card figure svg {
   /* width: 202.893px; */

@@ -26,7 +26,7 @@ html {
 }
 
 body {
-  overflow-x: hidden;
+  overflow: hidden;
   font-family: "Comic Neue", cursive;
 }
 
@@ -676,6 +676,12 @@ letter-spacing: -0.55px;
     background: #C80000;
     box-shadow: 0px 4px 4px 4px rgba(188, 188, 188, 0.25);
 }
+.ifrme {
+  position: absolute;
+  left: 39vw;
+  width: 31vw;
+  bottom: -27vw;
+}
 .first-inner-card {
   width: 468px;
   position: absolute;
@@ -685,6 +691,9 @@ letter-spacing: -0.55px;
   padding: 3vw 2vw;
   top: 3.8vw;
   left: 3vw;
+}
+.empty{
+  padding: 2vw;
 }
 .first-inner-card p{
   color: #000;
